@@ -9,11 +9,9 @@ public class Exercise3 {
         while (true) {
             inputs = Exercise2.getUserInput();
             if(inputs[1] == 0) {
-                System.out.println("Cannot divide by zero. Please try again.");
+                System.err.println(("Cannot divide by zero. Please try again."));
                 divide();
             }
         }
-
     }
-
 }
