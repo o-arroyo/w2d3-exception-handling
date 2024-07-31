@@ -21,7 +21,7 @@ public class Exercise2 {
 
     private static int enterNumber(Scanner scanner, String message) {
         while (true) {
-            System.out.print(message);
+            System.out.println(message);
             try {
                 return scanner.nextInt();
             } catch (InputMismatchException e) {
